@@ -5,7 +5,7 @@ def count_rows_with_count():
     conn = sqlite3.connect("example.db")
     cursor = conn.cursor()
 
-    # SQL query for Challenge #1
+    # SQL query for Challenge #4
     query = "SELECT COUNT(*) AS total_products FROM products"
 
     cursor.execute(query)
